@@ -1,0 +1,245 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	background-color: #ffffff;
+	font-family: poppins;
+	font-size: 16px;
+	
+}
+.header{
+	width: 100%;
+	height: 90px;
+	background-color: white;
+	
+
+
+}
+.container{
+	width: 1100px;
+	height:90px; 
+	margin:0 auto;
+	
+}
+.logo{
+	  float: left;
+	  margin: 0;
+	  padding-top: 24px;
+	
+	
+
+}
+.socioicons{
+	float: right; 
+	margin-top:33px;
+}
+.menubar
+{
+	float: right;
+	margin-top:37px;
+	color: #3498e2;
+
+
+}
+.menubar a {
+	margin-right: 40px;
+	text-decoration: none;
+	font-weight:400 ;
+
+}
+.menubar .home{
+     color: #3498db;
+}
+.socioicons a {
+	margin-right: 20px;
+}
+/*banner-style*/
+.banner{
+	background-image: url("../image/bannerimage.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height: 485px;
+
+}
+.welcome h1{
+	font-family: crimson-text, san-sherif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #ffffff;
+	padding-top: 100px;
+	padding-bottom: 35px;
+
+}
+.welcome p{
+	font-family: crimson-text, san-sherif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
+	padding-bottom: 40px;
+
+}
+.welcome a{
+	padding: 10px 20px;
+	background-color: #3498db;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	border-radius: 6px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+}
+.lumia{
+	border-bottom: solid #3498db 3px;
+}
+/*content*/
+
+.whatwedo{
+	text-align: center;
+}
+.whatwedo h1{
+	font-family:  crimson-text, san-sherif;
+	font-weight: 800;
+	font-size: 36px;
+	padding: 80px 70px;
+	color: #444444;
+}
+.whatwedo p{
+	font-weight: normal;
+	font-size: 18px;
+	padding-bottom: 70px;
+
+
+}
+.whatwedo span{
+	border-bottom: solid 3px #3498db;
+	padding-bottom: 30px;
+}
+.div1{
+	float: left;
+	width: 266px;
+	text-align: center;
+}
+.div2{
+	float: right;
+	width: 266px;
+	text-align: center;
+
+}
+.div3{
+	float: right;
+	width: 266px;
+	text-align: center;
+	padding: 0px 130px;
+}
+.div4{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.content h2{
+	font-family: poppins;
+	font-weight: 600;
+	font-size: 24px;
+	color: #444444;
+	padding: 40px;
+
+
+}
+.content p{
+	font-size: 14px
+	color: #444444;
+	line-height: 22px;
+	padding-bottom: 130px;
+
+}
+/*aboutus*/
+.about img{
+	height: 400px;
+	width: 530px;
+	padding-bottom: 65px;
+}
+.aboutus{
+	float: right;
+	width: 530px;}
+.aboutus h2{
+	text-transform: capitalize;
+	padding-bottom: 32px;
+	font-size: 30px;
+
+}
+
+.aboutus img{
+	height: 25px;
+	width: 20px;
+	display: inline;
+}
+.pp{
+	float: right;
+	display: inline;
+
+
+}
+/* .aboutus p{
+	font-size: 14px;
+	padding-bottom: 35px;
+	line-height: 25px;
+}
+
+.tik1{
+	padding-bottom: 30px;
+}
+.last img{
+	height: 50px;
+	width: 60px;
+}
+.last1 img{
+	height: 50px;
+	width: 60px;
+}
+.last{
+	font-size: right;
+	position: relative;
+	bottom: 65px
+} */
